@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listes des Eleves</title>
+    <title>listes des cours</title>
 
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -21,7 +22,7 @@
     <div class="dropdown-divider border-warning"></div>
     <div class="row">
         <div class="col-md-6">
-            <h5 class="fw-bold mb-0">Listes des Eleves</h5>
+            <h5 class="fw-bold mb-0">Listes des cours</h5>
         </div>
         <div class="col-md-6">
             <div class="d-flex justify-content-end">
@@ -38,10 +39,10 @@
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">nom</th>
-      <th scope="col">prénom</th>
-      <th scope="col">date de naissance</th>
-      <th scope="col">classe/niveau</th>
+      <th scope="col">Intitulé</th>
+      <th scope="col">Code du cours</th>
+      <th scope="col">Enseignant responsable</th>
+      <th scope="col">Niveau concerné</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
@@ -67,11 +68,12 @@
 </table>
         </div>
     </div>
+  
 
-    <div class="lien1"> <a href="eleves.php">Voir la page Enseignants</a></div>
+   
+    <div class="lien1"> <a href="eleves.php">Voir la page eleves</a></div>
     <div class="lien2"> <a href="notes.php">Voir la page notes</a></div>
-    <div class="lien3"> <a href="cours.php">Voir la page cours</a></div>
-
+    <div class="lien3"> <a href="cours.php">Voir la page Enseignants</a></div>
 
 </section> 
 

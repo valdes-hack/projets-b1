@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listes des Eleves</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
 
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        
-        <?php require_once 'header.php';?>
 <section class="container py-5">
     <div class="row">
         <div class="col-lg-8 col-sm mb-5 mx-auto"></div>
@@ -53,25 +51,19 @@
       <td>Otto</td>
       <td>@mdo</td>
       <td>@mdo</td>
-      
+      <td>@mdo</td>
       <td>
         <a href="" class="text-info me-2 infoBtn" title="Voir détails"><i class="fas fa-info-circle"></i></a>
         <a href="" class="text-primary me-2 editBtn" title="Modifier"><i class="fas fa-edit"></i></a>
         <a href="" class="text-danger me-2 deleteBtn" title="Supprimer"><i class="fas fa-trash-alt"></i></a>
       </td>
     </tr>
-
     <?php endfor; ?>
     
   </tbody>
 </table>
         </div>
     </div>
-
-    <div class="lien1"> <a href="eleves.php">Voir la page Enseignants</a></div>
-    <div class="lien2"> <a href="notes.php">Voir la page notes</a></div>
-    <div class="lien3"> <a href="cours.php">Voir la page cours</a></div>
-
 
 </section> 
 
